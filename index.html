@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI Externas - FIEMG</title>
+    <!-- Vínculo com o arquivo CSS separado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TAG SEMÂNTICA: HEADER (Cabeçalho Padrão FIEMG) -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <span>SISTEMA FIEMG — FEDERAÇÃO DAS INDÚSTRIAS DO ESTADO DE MINAS GERAIS</span>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <h1 class="logo-text">SENAI <span>Externas</span></h1>
+                <p>Gestão de Espaços Comuns, Integração e Cidadania</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="fiemg-section">
+            <h2>Mapeamento e Galeria dos Locais</h2>
+            <div class="section-content">
+                <p>O gerenciamento das áreas externas do nosso grupo divide-se em setores estratégicos com funções bem definidas. Clique nos botões para explorar cada ambiente em modo imersivo 360°:</p>
+                
+                <div class="list-container-ampliada">
+
+                    <!-- Item 1: Tempo Individual -->
+                    <div class="item-ampliado">
+                        <div class="image-wrapper-ampliada">
+                            <img src="panorama.jpeg" alt="Espaço para Tempo Individual">
+                        </div>
+                        <div class="info-ampliada">
+                            <h3>Área de Intervalo</h3>
+                            <p>Espaços reservados e calmos para o estudante sair da rotina da sala de aula, descansar a mente, ler ou estruturar ideias individualmente durante os intervalos.</p>
+                            <button class="btn-vr-item" onclick="window.location.href='visao.html?cena=intervalo'">Ver no Modo 360°</button>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: O Pátio -->
+                    <div class="item-ampliado">
+                        <div class="image-wrapper-ampliada">
+                            <img src="1000105731.jpg" alt="Pátio Central do SENAI">
+                        </div>
+                        <div class="info-ampliada">
+                            <h3>Estacionamento / Pátio</h3>
+                            <p>Área logística estruturada que garante a segurança dos veículos de alunos, professores e visitantes, organizando o fluxo de chegada e saída da instituição. Também é reservado para fazer momentos cívicos onde a pedagogia apresenta novas informações e homenagens ao hino nacional.</p>
+                            <button class="btn-vr-item" onclick="window.location.href='visao.html?cena=patio'">Ver no Modo 360°</button>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Sanitário -->
+                       <div class="item-ampliado">
+                        <div class="image-wrapper-ampliada">
+                            <img src="estacionamento.jpg" alt="Estacionamento Institucional">
+                        </div>
+                        <div class="info-ampliada">
+                            <h3>Sanitário</h3>
+                            <p>Área de infraestrutura essencial, estruturada de forma limpa e organizada para atender as necessidades diárias de higiene e bem-estar de toda a comunidade escolar.</p>
+                            <!-- Adicionado o botão que estava faltando aqui -->
+                            <button class="btn-vr-item" onclick="window.location.href='visao.html?cena=sanitario'">Ver no Modo 360°</button>
+                        </div>
+                    </div>
+                </div> <!-- Fim da list-container-ampliada -->
+            </div>
+        </section>
+
+        <!-- Seção 5: Espaço de Vídeo do Grupo -->
+        <section class="fiemg-section video-section">
+            <h2>Registro em Vídeo das Áreas Externas</h2>
+            <div class="section-content">
+                <p>Assista abaixo ao conteúdo audiovisual gravado pelo nosso grupo retratando a utilização e a dinâmica dos estudantes nestes ambientes fora de sala de aula:</p>
+                
+                <div class="video-container">
+                    <video controls>
+                        <source src="video-grupo.mp4" type="video/mp4">
+                        Seu navegador não suporta a reprodução de vídeos.
+                    </video>
+                </div>
+                
+                <!-- Botão de link para a página do tour 360 -->
+                <button class="btn-action" onclick="window.location.href='visao.html'">Acessar Tour Virtual VR 360°</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- TAG SEMÂNTICA: FOOTER (Rodapé Discreto Correto) -->
+    <footer class="footer-discreto">
+        <div class="container-footer">
+            <p class="footer-title">© 2026 SENAI Externas — Grupo de Trabalho de Gestão de Espaços Comuns</p>
+            <p class="footer-concept">Cidadania, Integração e Infraestrutura Industrial</p>
+            <p class="footer-contacts">WhatsApp: 32 98802-0862  •  Instagram: @senaiminas</p>
+            <p class="footer-rights">Serviço Nacional de Aprendizagem Industrial — Federação das Indústrias do Estado de Minas Gerais.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
